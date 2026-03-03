@@ -16,9 +16,10 @@ const Navbar = () => {
 
       
       <ul className="hidden sm:flex gap-6 text-white">
-        <li><a href="">Home</a></li>
-        <li><a href="about">About</a></li>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
         <li><a href="/services">Services</a></li>
+        <li><a href="/booking">Booking</a></li>
       </ul>
 
       
@@ -48,9 +49,10 @@ const Navbar = () => {
         </div>
 
         <ul className="flex flex-col items-center gap-6 mt-10 text-lg">
-          <li><a href="#" onClick={()=>setVisible(false)}>Home</a></li>
+          <li><a href="/" onClick={()=>setVisible(false)}>Home</a></li>
           <li><a href="/about" onClick={()=>setVisible(false)}>About</a></li>
           <li><a href="/services" onClick={()=>setVisible(false)}>Services</a></li>
+          <li><a href="/booking" onClick={()=>setVisible(false)}>Booking</a></li>
           <button className="bg-orange-500 text-white px-6 py-2 rounded">
             Admin
           </button>

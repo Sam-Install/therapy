@@ -1,9 +1,9 @@
 import React from "react";
 import th from "../assets/therapy.jpg"; 
 
-const Hero4 = () => {
+const Hero5 = () => {
   return (
-    <section className="relative w-full h-screen  flex items-center justify-center">
+    <section className="relative w-full h-screen flex items-center justify-center">
 
     
       <div
@@ -19,7 +19,7 @@ const Hero4 = () => {
 
         
         <p className="text-sm sm:text-base mb-4 text-gray-200">
-          Home <span className="mx-2">{">>"}</span> About
+          Home  <span className="mx-2">Services</span> 
         </p>
 
         
@@ -30,7 +30,7 @@ const Hero4 = () => {
         
         <a
           href="/booking"
-          className="inline-block bg-green-600 hover:bg-green-700 px-6 py-3 rounded-full text-white transition duration-300 shadow-lg"
+          className="inline-block bg-green-600 hover:bg-green-700 px-8 py-2 rounded-full text-white transition duration-300 shadow-lg"
         >
           Book Now
         </a>
@@ -41,4 +41,4 @@ const Hero4 = () => {
   );
 };
 
-export default Hero4;
+export default Hero5;

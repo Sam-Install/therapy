@@ -15,7 +15,7 @@ const Footer = () => {
 
       <div className="grid gap-12 sm:grid-cols-2 lg:grid-cols-4">
 
-        {/* Brand */}
+        
         <div>
           <h1 className="text-2xl font-semibold text-white mb-4">
             Ali <span className="text-green-500">Therapy</span>
@@ -26,7 +26,7 @@ const Footer = () => {
           </p>
         </div>
 
-        {/* Quick Links */}
+  
         <div>
           <h3 className="text-lg font-semibold text-white mb-4">
             Quick Links
@@ -47,7 +47,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Contact Info */}
+        
         <div>
           <h3 className="text-lg font-semibold text-white mb-4">
             Contact Info
@@ -86,7 +86,7 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Social Media */}
+      
         <div>
           <h3 className="text-lg font-semibold text-white mb-4">
             Follow Us
@@ -120,7 +120,7 @@ const Footer = () => {
 
       </div>
 
-      {/* Bottom Line */}
+    
       <div className="border-t border-gray-700 mt-12 pt-6 text-center text-gray-500 text-sm">
         © {new Date().getFullYear()} Ali Therapy. All Rights Reserved.
       </div>

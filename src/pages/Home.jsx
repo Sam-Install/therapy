@@ -9,7 +9,7 @@ import Faq from '../components/Faq'
 const Home = () => {
   return (
     <div>
-        <Navbar/>
+      
         <Her/>
         <Specialized/>
         <Why/>

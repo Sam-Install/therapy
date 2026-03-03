@@ -6,7 +6,7 @@ import Navbar from '../components/Navbar'
 const About = () => {
   return (
     <div>
-     <Navbar/>
+     
     <Hero4/>
     <Philosophy/>
     </div>
