@@ -54,14 +54,15 @@ const Booking = () => {
 
     try {
 
-    const response = await fetch("https://therapybackend.onrender.com/api/bookings",{
-  method:"POST",
-  headers:{
-    "Content-Type":"application/json",
-    "Accept":"application/json"
-  },
-  body: JSON.stringify(form)
-});
+      const response = await fetch("http://127.0.0.1:8000/api/bookings",{
+        method:"POST",
+        headers:{
+          "Content-Type":"application/json",
+          "Accept":"application/json"
+        },
+        body: JSON.stringify(form)
+      });
+
       const data = await response.json();
 
       if(data.status){
