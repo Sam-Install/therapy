@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoMdClose } from "react-icons/io";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [visible, setVisible] = useState(false);
@@ -24,10 +25,14 @@ const Navbar = () => {
 
       
       <div className="flex items-center gap-3">
-        <button className="hidden sm:block bg-orange-500 text-sm px-6 py-2 rounded text-white">
+     <Link to='admin/login'>
+     
+      <button className="hidden sm:block bg-orange-500 text-sm px-6 py-2 rounded text-white">
           Admin
         </button>
 
+     
+     </Link>  
         
         <GiHamburgerMenu
           onClick={() => setVisible(true)}
